@@ -1,0 +1,235 @@
+---
+title: "Fall 2022 Data Journalism Glossary"
+author: "Write Your Name Here"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Fall 2022 Data Journalism Glossary
+
+Over the course of the semester, you'll use this document to keep notes on each of the key terms we learn. Write these notes to a future you, who will use it throughout the semester to apply tools and techniques we learn to new situations as they arrive. These notes need to make sense to you, but I will be giving you a grade on it at the end of the semester (and I may ask to see it at various points throughout the semester).
+
+As you write, be sure to use "markdown" to style your text, create links, etc. Your grade on this assignment will assess your use of markdown style as well as the content. Here is a [good starting reference](https://rmarkdown.rstudio.com/lesson-8.html) on how to use markdown in R Studio.
+
+### Vocabulary for Exercise 1
+
+1.  R --
+2.  R Studio --
+3.  console
+4.  script
+5.  markdown
+6.  variable
+7.  value
+8.  vector
+9.  environment
+10. object
+11. assignment operator
+12. character string
+13. concatenate
+14. spreadsheet
+15. csv
+16. data frame
+17. install.packages()
+18. functions
+19. tidyverse
+20. library()
+21. pacman::p_load()
+
+## Vocabulary for Exercise 2
+
+1.  import
+2.  file
+3.  directory
+4.  readr package
+5.  readr::read_csv()
+6.  View()
+7.  rio package
+8.  rio::import()
+9.  colnames()
+10. Nrow()
+11. Ncol()
+12. dim()
+13. \$ notation
+14. names()
+15. summary()
+16. min()
+17. max()
+18. median()
+19. mean()
+20. Hmisc package
+21. Hmisc::describe()
+22. skimr package
+23. skimr::skim()
+24. histogram
+25. rio::export()
+
+## Vocabulary for Exercise 3
+
+1.  dplyr::filter()
+2.  comparison operators
+3.  boolean
+4.  dplyr::select()
+5.  %\>%
+6.  dplyr::arrange(desc())
+7.  bracket notation
+8.  sum()
+
+## Vocabulary for Exercise 4
+
+1.  problems()
+2.  %in%
+3.  janitor::tabyl
+4.  count()
+5.  group_by()
+6.  summarise()
+7.  n()
+8.  tally()
+9.  mutate()
+10. n_distinct()
+11. first()
+12. last()
+13. nth()
+14. select(contains())
+15. select(starts_with())
+16. select(ends_with())
+17. select_if()
+18. as.characater
+19. case_when()
+
+## Vocabulary for Exercise 5
+
+1.  as.Date()
+2.  lubridate
+3.  mdy()
+4.  mdy_hms()
+5.  today()
+6.  Sys.time()
+7.  week() / month() / year()
+8.  weeks() / months() / years()
+9.  as.numeric()
+10. difftime()
+11. weekdays()
+12. floor_date
+13. janitor::clean_names()
+14. ifelse()
+15. ungroup()
+
+## Vocabulary for Exercise 6
+
+1.  tidy data
+2.  hist()
+3.  ggplot(aes(x = reorder(), y= , group= , color=, fill= )
+4.  ggplot layers \*geom_line()
+5.  geom_point()
+6.  geom_col(position = "dodge", stat="identity", fill=)
+7.  top_n()
+8.  double bracket notation [[]]
+9.  hexidecimal color codes
+10. ggplot themes
+11. labs(title= , subtitle= , caption= )
+12. theme(axis.text.x = element.text(angle = , vjust=, hjust=)
+13. xlab()
+14. ylab()
+15. knit rmd files to HTML
+
+## Vocabulary for Exercise 7
+
+1.  list.files(pattern=,full.names=)
+2.  lapply
+3.  bind_rows()
+4.  rbind()
+5.  purr:map()
+6.  loop
+7.  unique()
+8.  left_join()
+9.  merge()
+10. relocate()
+11. rename()
+12. stringr::str_sub()
+13. stringr::str_trim()
+14. stringr::str_length()
+15. regular expressions
+16. head()
+17. NA values
+18. na_if()
+19. replace_na()
+20. na.omit()
+
+## Vocabulary for Exercise 8
+
+1.  download.file()
+2.  unzip(exdir="")
+3.  list.files(path="", pattern="", full.names="")
+4.  pivot_wider()
+5.  round()
+6.  between()
+
+## Vocabulary for Exercise 9
+
+1.  ggplot::geom_smooth(method=)
+2.  ggplot::facet_grid()
+3.  ggplot::scale_fill_manual(values = c())
+4.  ggplot::scale_color_brewer(palette = )
+5.  ggthemes package
+6.  viridis package
+7.  ggrepel package
+8.  na.omit()
+9.  ggplot::coord_flip()
+10. ggplot::sclae_y\_continuous(breaks=seq(), limits=c())
+11. viridis::scale_fill_viridis(name=, option=, direction=, trans=)
+12. ggrepel::geom_text_repel()
+13. ggplot::expand_limits()
+14. ggplot::geom_abline()
+15. spinogram
+16. ggplot::geom_violin()
+17. ggplot::geom_histogram(binwidth=, color=, fill=)
+18. ggplot::scale_x\_log10()
+19. ggplot::geom_density(fill=, color=, alpha=)
+20. ggplot::geom_segment()
+21. ggplot::geom_text()
+22. ggplot::ggsave(width=, height=, units=)
+23. ggplot::facet_wrap()
+24. ggplot::scale_x\_continuous(breaks=seq(), limits=c())
+25. ggplot::scale_x\_discrete(limits=c(), position=)
+26. ggplot::scale_y\_discrete(limits=c())
+27. ggplot::scale_color_continuous()
+28. ggplot::scale_color_manual(values=c())
+29. ggplot::scale_fill_continuous()
+30. ggplot::annotate("segment", "point", "text", x=, y=, label=, color=)
+31. ggplot::geom_hline(yintercept=, color=)
+32. ggplot::geom_vline(xintercept=, color=)
+33. ggthemes::theme_economist()
+34. ggthemes::scale_colour_economist()
+35. ggthemes::theme_fivethirtyeight()
+36. gghighlight package
+37. gghighlight::gghighlight(max(), max_highlight=)
+38. ggridges::geom_density_ridges_gradient(scale=, rel_min_height=)
+39. ggplot::geom_tile(color=, width=, height=)
+40. ggplot::scale_fill_gradient2(midpoint=, low=, high=, limits=c())
+41. ggplot::guides(fill=)
+42. ggbeeswarm package
+43. ggbeeswarn::geom_beeswarm(method=, groupOnX=, dodge.width=, alpha=)
+44. ggplot::scale_size_area(max_size=)
+45. ggplot::scale_x\_date(date_breaks=, labels=date_format(), limits=)
+46. gglplot::coord_polar(direction = )
+47. gglabeller package
+48. ggplot::scale_fill_brewer(pallette = )
+49. plotly package
+50. hrbrthemes package
+51. gganimate package
+
+## Vocabulary for Exercise 10
+
+1.  htmltab("", x)
+2.  list()
+3.  double-bracket notation [[]]
+4.  grepl()
+5.  Tabula
+6.  setting column types in read_csv
+7.  skipping rows in read_csv
+8.  gsub()
+9.  pivot_longer()
+10. paste()
+11. paste0()
+
+**More TK ...**

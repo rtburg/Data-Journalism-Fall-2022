@@ -49,7 +49,7 @@ As you write, be sure to use "markdown" to style your text, create links, etc. Y
 10. Nrow()
 11. Ncol()
 12. dim()
-13. \$ notation
+13. $ notation
 14. names()
 15. summary()
 16. min()
@@ -231,40 +231,5 @@ As you write, be sure to use "markdown" to style your text, create links, etc. Y
 9.  pivot_longer()
 10. paste()
 11. paste0()
-
-## Vocabulary for Exericse 11
-1. Open Refine
-2. refinr package
-3. refinr::key_collision_merge()
-4. dplyr::anti_join()
-5. refinr::n_gram_merge()
-6. cluster
-7. faceting
-8. text facet
-9. keying function
-10. n-gram size
-11. "merge and re-cluster"
-12. rvest package
-13. scraping
-14. HTML tags
-15. HTML elements
-16. HTML element attributes
-17. name/value pairs of HTML element attributes
-18. CSS selectors
-19. XML
-20. XPATH
-21. browser inspector tools
-22. rvest::read_html()
-23. rvest::html_nodes()
-24. rvest::html_table()
-25. rvest::html_text()
-26. rvest::html_attr()
-27. purrr::walk2()
-28. robots.txt
-29. cannonical/addressable URLs
-30. variables in URLs
-
-
-## Vocabulary for Exericse 12
 
 **More TK ...**
